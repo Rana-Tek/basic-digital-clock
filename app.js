@@ -1,4 +1,4 @@
-function calTime() {
+const calTime =() => {
     let dateTime = new Date();
     let h = dateTime.getHours();
     let m = dateTime.getMinutes();
